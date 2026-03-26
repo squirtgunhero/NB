@@ -166,7 +166,7 @@ export function MapExplorer() {
 
   return (
     <div className="relative w-full aspect-[21/9] min-h-[400px] md:min-h-[500px]">
-      <div ref={mapContainer} className="absolute inset-0" />
+      <div ref={mapContainer} className="absolute inset-0" style={{ position: "absolute" }} />
 
       {/* Info Panel */}
       <AnimatePresence>
