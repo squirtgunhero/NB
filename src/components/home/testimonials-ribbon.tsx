@@ -6,7 +6,7 @@ import { AnimateIn } from "@/components/shared/animate-in";
 const TESTIMONIALS = [
   {
     quote:
-      "Nikki didn't just find us an apartment — she found us a home. Her understanding of what we needed before we could articulate it was remarkable.",
+      "Nikki didn't just find us an apartment - she found us a home. Her understanding of what we needed before we could articulate it was remarkable.",
     name: "Sarah & James L.",
     context: "Relocated from London",
   },

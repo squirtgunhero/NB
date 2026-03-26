@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "Financing Guide",
   description:
-    "Navigate NYC real estate financing — from mortgage types and co-op vs condo differences to first-time buyer and international buyer programs.",
+    "Navigate NYC real estate financing - from mortgage types and co-op vs condo differences to first-time buyer and international buyer programs.",
 };
 
 const mortgageTypes = [
@@ -58,7 +58,7 @@ const coopVsCondo = [
   },
   {
     label: "Board Approval",
-    coop: "Required — interview process is standard",
+    coop: "Required - interview process is standard",
     condo: "Right of first refusal only (less restrictive)",
   },
   {

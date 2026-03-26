@@ -8,7 +8,7 @@ export function ContactCTA() {
     <section className="py-20 md:py-28 bg-midnight">
       <div className="max-w-[1400px] mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Left — Pitch */}
+          {/* Left - Pitch */}
           <AnimateIn direction="left">
             <p className="text-[12px] font-medium uppercase tracking-[0.15em] text-champagne mb-4">
               Let&apos;s Connect
@@ -17,7 +17,7 @@ export function ContactCTA() {
               Ready to Make Your Move?
             </h2>
             <p className="mt-6 text-stone-400 text-lg leading-relaxed max-w-md">
-              Whether buying, selling, or exploring — let&apos;s start the
+              Whether buying, selling, or exploring - let&apos;s start the
               conversation. Every great New York story begins with a single step.
             </p>
             <div className="mt-10 space-y-4 text-stone-400">
@@ -47,7 +47,7 @@ export function ContactCTA() {
             </div>
           </AnimateIn>
 
-          {/* Right — Form */}
+          {/* Right - Form */}
           <AnimateIn direction="right">
             <form
               className="space-y-5 bg-stone-900/50 border border-stone-800 p-8 md:p-10"

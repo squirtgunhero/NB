@@ -16,7 +16,7 @@ const EPISODES = [
   {
     id: 2,
     title: "Navigating Co-op Boards Like a Pro",
-    description: "A candid conversation about the board approval process and how to present the strongest application possible — even in the most selective buildings.",
+    description: "A candid conversation about the board approval process and how to present the strongest application possible - even in the most selective buildings.",
     date: "February 2026",
     duration: "29 min",
     episode: "Ep. 23",
@@ -48,7 +48,7 @@ const EPISODES = [
   {
     id: 6,
     title: "New Development Deep Dive: What to Ask Before You Buy",
-    description: "Nicole shares her checklist for evaluating new construction — from sponsor financials and offering plans to construction timelines and building amenities.",
+    description: "Nicole shares her checklist for evaluating new construction - from sponsor financials and offering plans to construction timelines and building amenities.",
     date: "October 2025",
     duration: "44 min",
     episode: "Ep. 19",
@@ -56,7 +56,7 @@ const EPISODES = [
   {
     id: 7,
     title: "Selling Above Ask: Strategies That Actually Work",
-    description: "Data-driven pricing, strategic staging, and targeted marketing — the tactics that consistently deliver above-ask results in competitive markets.",
+    description: "Data-driven pricing, strategic staging, and targeted marketing - the tactics that consistently deliver above-ask results in competitive markets.",
     date: "September 2025",
     duration: "33 min",
     episode: "Ep. 18",
@@ -64,7 +64,7 @@ const EPISODES = [
   {
     id: 8,
     title: "Manhattan's Hidden Gem Neighborhoods",
-    description: "Beyond the marquee addresses — exploring under-the-radar pockets of Manhattan that offer exceptional value and quality of life.",
+    description: "Beyond the marquee addresses - exploring under-the-radar pockets of Manhattan that offer exceptional value and quality of life.",
     date: "August 2025",
     duration: "37 min",
     episode: "Ep. 17",

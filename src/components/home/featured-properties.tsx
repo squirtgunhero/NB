@@ -8,7 +8,7 @@ import { SectionHeader } from "@/components/ui";
 import { AnimateIn } from "@/components/shared/animate-in";
 import { formatPrice } from "@/lib/utils";
 
-// Placeholder data — will be replaced with Sanity data
+// Placeholder data - will be replaced with Sanity data
 const FEATURED_PROPERTIES = [
   {
     slug: "432-park-avenue-ph",

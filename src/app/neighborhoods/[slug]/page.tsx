@@ -22,7 +22,7 @@ const NEIGHBORHOOD_DATA: Record<string, {
   "upper-east-side": {
     name: "Upper East Side",
     vibe: "Old-world elegance meets modern sophistication",
-    description: "The Upper East Side is Manhattan's gold standard for refined living. Tree-lined streets of limestone townhouses give way to Museum Mile's cultural treasures, while Madison Avenue boutiques and world-class dining define the neighborhood's quietly luxurious character. This is where New York's most established families have lived for generations — and where a new generation of discerning buyers continues to invest.",
+    description: "The Upper East Side is Manhattan's gold standard for refined living. Tree-lined streets of limestone townhouses give way to Museum Mile's cultural treasures, while Madison Avenue boutiques and world-class dining define the neighborhood's quietly luxurious character. This is where New York's most established families have lived for generations - and where a new generation of discerning buyers continues to invest.",
     heroImage: "/images/neighborhoods/ues-hero.svg",
     medianPrice: 2450000,
     avgPricePerSqFt: 1850,
@@ -49,7 +49,7 @@ const NEIGHBORHOOD_DATA: Record<string, {
   "tribeca": {
     name: "Tribeca",
     vibe: "Industrial grandeur turned family-friendly luxury",
-    description: "Tribeca has evolved from a warehouse district into Manhattan's most coveted residential neighborhood. Cast-iron buildings now house sprawling loft conversions, while cobblestone streets lead to some of the city's best restaurants. It's where celebrities, finance executives, and creative entrepreneurs live side by side — drawn by the space, the quiet, and the unmistakable sense of arrival.",
+    description: "Tribeca has evolved from a warehouse district into Manhattan's most coveted residential neighborhood. Cast-iron buildings now house sprawling loft conversions, while cobblestone streets lead to some of the city's best restaurants. It's where celebrities, finance executives, and creative entrepreneurs live side by side - drawn by the space, the quiet, and the unmistakable sense of arrival.",
     heroImage: "/images/neighborhoods/tribeca-hero.svg",
     medianPrice: 3800000,
     avgPricePerSqFt: 2200,

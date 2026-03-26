@@ -6,7 +6,7 @@ import { SectionHeader } from "@/components/ui/section-header";
 export const metadata: Metadata = {
   title: "Resources",
   description:
-    "Tools and resources to empower your real estate decisions — from mortgage calculators to relocation guides.",
+    "Tools and resources to empower your real estate decisions - from mortgage calculators to relocation guides.",
 };
 
 const resources = [
@@ -52,7 +52,7 @@ const resources = [
     ),
     title: "Financing Guide",
     description:
-      "Navigate the complexities of NYC real estate financing — from co-op boards to jumbo loans and international buyers.",
+      "Navigate the complexities of NYC real estate financing - from co-op boards to jumbo loans and international buyers.",
   },
   {
     href: "/resources/relocation",

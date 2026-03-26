@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: "%s | Nicole Beauchamp",
   },
   description:
-    "Nicole 'Nikki' Beauchamp — Award-winning luxury real estate advisor with Sotheby's International Realty. Nearly two decades specializing in New York City's finest properties.",
+    "Nicole 'Nikki' Beauchamp - Award-winning luxury real estate advisor with Sotheby's International Realty. Nearly two decades specializing in New York City's finest properties.",
   keywords: [
     "NYC luxury real estate",
     "Manhattan real estate",

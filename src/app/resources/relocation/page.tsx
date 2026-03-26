@@ -60,7 +60,7 @@ const services = [
     ),
     title: "Lifestyle Integration",
     description:
-      "Restaurant recommendations, fitness clubs, cultural institutions, social networks — we help you feel at home in New York from day one.",
+      "Restaurant recommendations, fitness clubs, cultural institutions, social networks - we help you feel at home in New York from day one.",
   },
 ];
 
@@ -119,7 +119,7 @@ export default function RelocationPage() {
           <SectionHeader
             label="Comprehensive Support"
             title="Relocation Services"
-            description="Every aspect of your move is covered — from finding the right neighborhood to settling into your new life."
+            description="Every aspect of your move is covered - from finding the right neighborhood to settling into your new life."
           />
           <StaggerChildren className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {services.map((s) => (

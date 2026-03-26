@@ -46,7 +46,7 @@ export function NeighborhoodPreview() {
           />
         </AnimateIn>
 
-        {/* Mini Map Placeholder — will be replaced with Mapbox */}
+        {/* Mini Map Placeholder - will be replaced with Mapbox */}
         <AnimateIn>
           <div className="relative w-full max-w-3xl mx-auto aspect-[3/4] md:aspect-[4/3] mb-16 rounded overflow-hidden bg-stone-900 border border-stone-800">
             <div className="absolute inset-0 flex items-center justify-center">

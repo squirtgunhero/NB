@@ -4,7 +4,7 @@ import { AnimateIn } from "@/components/shared/animate-in";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Privacy policy for NicoleBeauchamp.com — how we collect, use, and protect your personal information.",
+    "Privacy policy for NicoleBeauchamp.com - how we collect, use, and protect your personal information.",
 };
 
 export default function PrivacyPolicyPage() {

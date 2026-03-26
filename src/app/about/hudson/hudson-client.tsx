@@ -27,7 +27,7 @@ export function HudsonPageClient() {
         <div className="absolute inset-0">
           <Image
             src="/images/hudson/hudson-hero.svg"
-            alt="Hudson — Golden Retriever and Brand Ambassador"
+            alt="Hudson - Golden Retriever and Brand Ambassador"
             fill
             className="object-cover object-center"
             priority

@@ -129,7 +129,7 @@ const PROPERTIES: PropertyDetail[] = [
       "/images/placeholder-property-4.svg",
     ],
     description: [
-      "A stunning full-floor loft in one of Tribeca's most coveted condominium conversions. This 5,100-square-foot residence blends original industrial character — soaring ceilings, exposed brick, and oversized arched windows — with impeccable contemporary design.",
+      "A stunning full-floor loft in one of Tribeca's most coveted condominium conversions. This 5,100-square-foot residence blends original industrial character - soaring ceilings, exposed brick, and oversized arched windows - with impeccable contemporary design.",
       "The open living and dining area is anchored by a sculptural fireplace and flows into a custom chef's kitchen with honed marble countertops, Sub-Zero and Wolf appliances, and a walk-in pantry.",
       "Four generously proportioned bedrooms each feature en-suite bathrooms with radiant heated floors. The primary suite includes a dressing room, a freestanding soaking tub, and a walk-in rain shower clad in Calacatta marble.",
     ],
@@ -186,7 +186,7 @@ export async function generateMetadata({
     title: `${property.address} | ${formatFullPrice(property.price)}`,
     description: property.description[0],
     openGraph: {
-      title: `${property.address} — ${formatPrice(property.price)}`,
+      title: `${property.address} - ${formatPrice(property.price)}`,
       description: property.description[0],
       images: property.images[0] ? [property.images[0]] : [],
     },

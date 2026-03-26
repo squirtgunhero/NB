@@ -65,7 +65,7 @@ export function PropertyDetailClient({
               >
                 <Image
                   src={property.images[activeImage]}
-                  alt={`${property.address} — photo ${activeImage + 1}`}
+                  alt={`${property.address} - photo ${activeImage + 1}`}
                   fill
                   className="object-cover"
                   sizes="100vw"

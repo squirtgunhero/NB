@@ -12,7 +12,7 @@ const BLOG_POSTS = [
     category: "Market Insights",
     date: "March 15, 2026",
     excerpt:
-      "A deep dive into the trends shaping Manhattan's luxury market this season — from pricing dynamics to emerging buyer profiles.",
+      "A deep dive into the trends shaping Manhattan's luxury market this season - from pricing dynamics to emerging buyer profiles.",
     image: "/images/blog/market-spring.svg",
     readTime: 6,
     featured: true,
@@ -33,7 +33,7 @@ const BLOG_POSTS = [
     category: "Buyer Tips",
     date: "February 28, 2026",
     excerpt:
-      "Board packages, co-op vs. condo, financing nuances — the insider knowledge that makes the difference.",
+      "Board packages, co-op vs. condo, financing nuances - the insider knowledge that makes the difference.",
     image: "/images/blog/first-time-buyer.svg",
     readTime: 8,
   },

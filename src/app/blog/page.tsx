@@ -44,7 +44,7 @@ const BLOG_POSTS: BlogPost[] = [
     slug: "art-of-staging-luxury-home",
     title: "The Art of Staging a Luxury Home: Lessons from Sotheby's Finest Sales",
     excerpt:
-      "Why the right staging strategy can add millions to your final sale price — and the common mistakes that cost sellers dearly.",
+      "Why the right staging strategy can add millions to your final sale price - and the common mistakes that cost sellers dearly.",
     category: "Seller Tips",
     date: "March 10, 2026",
     readTime: "5 min read",
@@ -64,7 +64,7 @@ const BLOG_POSTS: BlogPost[] = [
     slug: "first-time-luxury-buyer-guide",
     title: "Your First Luxury Purchase: A Step-by-Step Guide to Buying Above $5M",
     excerpt:
-      "Navigating the nuances of high-end real estate — from board packages to bespoke financing — with confidence.",
+      "Navigating the nuances of high-end real estate - from board packages to bespoke financing - with confidence.",
     category: "Buyer Tips",
     date: "February 24, 2026",
     readTime: "7 min read",

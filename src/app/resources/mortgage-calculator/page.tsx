@@ -7,7 +7,7 @@ import { SectionHeader } from "@/components/ui/section-header";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
-// export metadata via a separate layout or head — "use client" pages can't export metadata directly,
+// export metadata via a separate layout or head - "use client" pages can't export metadata directly,
 // so we set the title with a simple <title> in a useEffect-free approach
 // Actually, Next.js supports generateMetadata only in server components, so we add a head tag.
 

@@ -24,7 +24,7 @@ export function AboutTeaser() {
     <section ref={sectionRef} className="py-20 md:py-28 bg-ivory overflow-hidden">
       <div className="max-w-[1400px] mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-          {/* Image — 55% */}
+          {/* Image - 55% */}
           <div className="lg:col-span-7 relative">
             <AnimateIn direction="left">
               <motion.div
@@ -34,7 +34,7 @@ export function AboutTeaser() {
                 <div className="absolute inset-0 bg-stone-200 skeleton" />
                 <Image
                   src="/images/nikki-editorial.svg"
-                  alt="Nicole Beauchamp — Luxury Real Estate Advisor"
+                  alt="Nicole Beauchamp - Luxury Real Estate Advisor"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 55vw"
@@ -46,7 +46,7 @@ export function AboutTeaser() {
             <div className="hidden lg:block absolute -bottom-4 -right-4 w-24 h-24 border border-champagne/30" />
           </div>
 
-          {/* Text — 45% */}
+          {/* Text - 45% */}
           <div className="lg:col-span-5">
             <AnimateIn direction="right">
               <p className="text-[12px] font-medium uppercase tracking-[0.15em] text-champagne mb-4">
@@ -56,7 +56,7 @@ export function AboutTeaser() {
                 Nikki Beauchamp
               </h2>
               <p className="mt-6 text-stone-500 text-[17px] leading-relaxed">
-                More than an agent — a trusted advisor, knowledge broker, and
+                More than an agent - a trusted advisor, knowledge broker, and
                 solutions strategist. With nearly two decades navigating New York
                 City&apos;s most complex real estate landscape, Nikki brings a
                 rare combination of market intelligence, global perspective, and

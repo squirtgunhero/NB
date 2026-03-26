@@ -303,7 +303,7 @@ function PropertyGridCard({ property }: { property: PropertyCard }) {
         />
         <Image
           src={property.image2}
-          alt={`${property.address} — alternate view`}
+          alt={`${property.address} - alternate view`}
           fill
           className="object-cover transition-all duration-700 opacity-0 group-hover:opacity-100 scale-[1.03] group-hover:scale-100"
           sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"

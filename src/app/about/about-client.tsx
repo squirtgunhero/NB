@@ -29,7 +29,7 @@ const approachCards = [
     ),
     title: "Market Intelligence",
     description:
-      "Every recommendation is grounded in deep data analysis, proprietary market insights, and decades of pattern recognition — never gut feelings. You deserve clarity in complexity.",
+      "Every recommendation is grounded in deep data analysis, proprietary market insights, and decades of pattern recognition - never gut feelings. You deserve clarity in complexity.",
   },
   {
     icon: (
@@ -54,7 +54,7 @@ const approachCards = [
     ),
     title: "White Glove Service",
     description:
-      "From the first conversation to well beyond the closing, every detail is managed with precision — staging, legal coordination, timeline management, and post-close concierge.",
+      "From the first conversation to well beyond the closing, every detail is managed with precision - staging, legal coordination, timeline management, and post-close concierge.",
   },
 ];
 
@@ -76,7 +76,7 @@ export function AboutPageClient() {
         <motion.div style={{ y: heroImageY }} className="absolute inset-0">
           <Image
             src="/images/nikki-editorial-full.svg"
-            alt="Nicole Beauchamp — Editorial Portrait"
+            alt="Nicole Beauchamp - Editorial Portrait"
             fill
             className="object-cover object-top"
             priority
@@ -121,7 +121,7 @@ export function AboutPageClient() {
       <section className="py-20 md:py-28 bg-ivory">
         <div className="max-w-[1400px] mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
-            {/* Pull Quote — Left Column */}
+            {/* Pull Quote - Left Column */}
             <div className="lg:col-span-4 flex flex-col justify-start lg:pt-8">
               <AnimateIn direction="left">
                 <blockquote className="relative pl-6 border-l-2 border-champagne/50">
@@ -145,7 +145,7 @@ export function AboutPageClient() {
               </AnimateIn>
             </div>
 
-            {/* Narrative — Right Column */}
+            {/* Narrative - Right Column */}
             <div className="lg:col-span-8">
               <AnimateIn direction="right">
                 <p className="text-[12px] font-medium uppercase tracking-[0.15em] text-champagne mb-4">
@@ -280,7 +280,7 @@ export function AboutPageClient() {
                 <div className="md:col-span-5 relative aspect-[4/3] md:aspect-auto md:h-full min-h-[280px] overflow-hidden">
                   <Image
                     src="/images/hudson-teaser.svg"
-                    alt="Hudson — Nicole Beauchamp's Golden Retriever"
+                    alt="Hudson - Nicole Beauchamp's Golden Retriever"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
                     unoptimized

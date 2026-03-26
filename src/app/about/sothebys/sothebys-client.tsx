@@ -20,12 +20,12 @@ const marketingPillars = [
   {
     title: "Unrivaled Brand Heritage",
     description:
-      "The Sotheby's name carries over 280 years of prestige. In luxury real estate, brand association matters — it opens doors and commands attention in ways that no amount of marketing spend can replicate.",
+      "The Sotheby's name carries over 280 years of prestige. In luxury real estate, brand association matters - it opens doors and commands attention in ways that no amount of marketing spend can replicate.",
   },
   {
     title: "Curated Property Films",
     description:
-      "Every significant listing receives a cinematic property film produced to the standard of a luxury brand campaign — not a slideshow with music, but genuine storytelling that captures the soul of a home.",
+      "Every significant listing receives a cinematic property film produced to the standard of a luxury brand campaign - not a slideshow with music, but genuine storytelling that captures the soul of a home.",
   },
   {
     title: "Global Digital Reach",
@@ -35,7 +35,7 @@ const marketingPillars = [
   {
     title: "Auction House Synergy",
     description:
-      "Access to Sotheby's auction house client database — a curated network of ultra-high-net-worth collectors and investors whose passion for exceptional things extends to exceptional properties.",
+      "Access to Sotheby's auction house client database - a curated network of ultra-high-net-worth collectors and investors whose passion for exceptional things extends to exceptional properties.",
   },
 ];
 
@@ -118,7 +118,7 @@ export function SothebysPageClient() {
                 <div className="relative aspect-[3/4] rounded-[6px] overflow-hidden">
                   <Image
                     src="/images/sothebys-auction.svg"
-                    alt="Sotheby's Auction House — A Legacy of Excellence"
+                    alt="Sotheby's Auction House - A Legacy of Excellence"
                     fill
                     className="object-cover"
                     unoptimized
@@ -328,7 +328,7 @@ export function SothebysPageClient() {
                 <div className="relative aspect-[3/4] rounded-[6px] overflow-hidden">
                   <Image
                     src="/images/nikki-sothebys.svg"
-                    alt="Nicole Beauchamp — Sotheby's International Realty"
+                    alt="Nicole Beauchamp - Sotheby's International Realty"
                     fill
                     className="object-cover"
                     unoptimized

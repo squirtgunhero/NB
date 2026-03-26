@@ -8,7 +8,7 @@ export function Hero() {
     <section className="relative h-screen w-full overflow-hidden">
       {/* Background Video / Image Fallback */}
       <div className="absolute inset-0">
-        {/* Video — replace src with actual ambient video */}
+        {/* Video - replace src with actual ambient video */}
         <video
           autoPlay
           muted
