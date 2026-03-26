@@ -1,26 +1,111 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* ─── Design System Tokens ─── */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Primary */
+  --color-midnight: #0A0E17;
+  --color-ivory: #FAF8F5;
+  --color-champagne: #C9A96E;
+  --color-champagne-light: #D4BA8A;
+
+  /* Neutrals */
+  --color-stone-50: #FAFAF8;
+  --color-stone-100: #F5F3EF;
+  --color-stone-200: #E8E4DD;
+  --color-stone-300: #D1CBC1;
+  --color-stone-400: #A89F93;
+  --color-stone-500: #7A7168;
+  --color-stone-600: #5C544C;
+  --color-stone-700: #3D3731;
+  --color-stone-800: #252119;
+  --color-stone-900: #141210;
+
+  /* Functional */
+  --color-success: #2D6A4F;
+  --color-error: #9B2C2C;
+
+  /* Fonts */
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-accent: "Cormorant Garamond", Georgia, serif;
+
+  /* Animations */
+  --ease-luxury: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* ─── Base Styles ─── */
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-midnight);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Typography ─── */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+/* ─── Selection ─── */
+::selection {
+  background-color: var(--color-champagne);
+  color: var(--color-midnight);
+}
+
+/* ─── Scroll Behavior ─── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ─── Reduced Motion ─── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ─── Champagne Shimmer Skeleton ─── */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--color-stone-200) 25%,
+    var(--color-champagne-light) 50%,
+    var(--color-stone-200) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-stone-100);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-stone-400);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-stone-500);
+}
+
+/* ─── Focus Styles ─── */
+:focus-visible {
+  outline: 2px solid var(--color-champagne);
+  outline-offset: 2px;
 }
