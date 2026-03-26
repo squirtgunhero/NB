@@ -13,7 +13,7 @@ const FEATURED_TESTIMONIAL = {
   quote:
     "In over 30 years of real estate transactions across the globe, I have never worked with a more knowledgeable, dedicated, and effective advisor. Nikki's understanding of the New York market is truly extraordinary, and her commitment to her clients is beyond anything I have ever experienced.",
   name: "Michael R.",
-  context: "Upper East Side Purchase &mdash; International Executive",
+  context: "Upper East Side Purchase - International Executive",
 };
 
 const TESTIMONIALS = [
@@ -63,7 +63,7 @@ const TESTIMONIALS = [
     quote:
       "After a difficult divorce, I needed to sell quickly but didn't want to sacrifice value. Nikki handled everything with discretion, sensitivity, and professionalism. She got me an extraordinary price under challenging circumstances.",
     name: "Catherine P.",
-    context: "Discreet Sale &mdash; Personal Transition",
+    context: "Discreet Sale - Personal Transition",
   },
   {
     quote:

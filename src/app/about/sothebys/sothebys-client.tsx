@@ -148,7 +148,7 @@ export function SothebysPageClient() {
                 <div className="space-y-6 text-stone-500 text-[17px] leading-relaxed">
                   <p>
                     Founded in London in 1744, Sotheby&apos;s is the world&apos;s oldest and most
-                    prestigious auction house &mdash; a name synonymous with exceptional taste,
+                    prestigious auction house - a name synonymous with exceptional taste,
                     rarity, and the pursuit of the extraordinary. For nearly three centuries,
                     the Sotheby&apos;s brand has set the standard for how the world&apos;s most
                     valuable objects are presented, marketed, and transacted.
@@ -158,7 +158,7 @@ export function SothebysPageClient() {
                     the unique needs of the auction house&apos;s distinguished clientele in the
                     realm of real estate. Today, the brand extends across 83 countries and
                     territories, with more than 1,100 offices staffed by 26,000 sales
-                    associates &mdash; each one chosen for their expertise, local market
+                    associates - each one chosen for their expertise, local market
                     knowledge, and commitment to a level of service that mirrors the
                     auction house tradition.
                   </p>
@@ -274,14 +274,14 @@ export function SothebysPageClient() {
                 <div className="space-y-6 text-stone-500 text-[17px] leading-relaxed">
                   <p>
                     When Nikki Beauchamp chose Sotheby&apos;s International Realty, it was
-                    a deliberate alignment of values &mdash; not a business convenience.
+                    a deliberate alignment of values - not a business convenience.
                     The SIR brand reflects the same principles that guide her practice:
                     discretion, expertise, global reach, and an unwavering commitment to
                     presenting every property and every client in the best possible light.
                   </p>
                   <p>
                     For sellers, this means your property benefits from the most powerful
-                    luxury brand in real estate &mdash; a name that attracts qualified,
+                    luxury brand in real estate - a name that attracts qualified,
                     serious buyers from around the world. Your listing receives curated
                     exposure through SIR&apos;s proprietary marketing channels, global
                     syndication network, and the unmatched prestige of the Sotheby&apos;s name.
@@ -290,7 +290,7 @@ export function SothebysPageClient() {
                     For buyers, this affiliation means access to exclusive inventory,
                     off-market opportunities, and a network of trusted professionals in
                     every major city on earth. When you work with Nikki through SIR,
-                    you&apos;re not just working with one agent &mdash; you&apos;re connected
+                    you&apos;re not just working with one agent - you&apos;re connected
                     to 26,000 colleagues who share the same standard of service.
                   </p>
                 </div>

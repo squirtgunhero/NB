@@ -316,7 +316,7 @@ export default function HomeValuationPage() {
                     Nikki will personally review your property details and
                     prepare a comprehensive market analysis. You&rsquo;ll
                     receive comparable sales data, current market trends, and a
-                    professional opinion of value &mdash; typically within 24&ndash;48 hours.
+                    professional opinion of value - typically within 24&ndash;48 hours.
                   </p>
                 </div>
 

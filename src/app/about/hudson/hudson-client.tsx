@@ -27,7 +27,7 @@ export function HudsonPageClient() {
         <div className="absolute inset-0">
           <Image
             src="/images/hudson/hudson-hero.svg"
-            alt="Hudson - Golden Retriever and Brand Ambassador"
+            alt="Hudson - Morkie and Brand Ambassador"
             fill
             className="object-cover object-center"
             priority
@@ -60,7 +60,7 @@ export function HudsonPageClient() {
               transition={{ duration: 0.8, delay: 0.7, ease: [0.16, 1, 0.3, 1] }}
               className="mt-4 text-lg md:text-xl text-stone-300 max-w-lg"
             >
-              Golden retriever. Client whisperer. Professional snack enthusiast.
+              Morkie. Client whisperer. Professional snack enthusiast.
             </motion.p>
           </div>
         </div>
@@ -115,7 +115,7 @@ export function HudsonPageClient() {
                 <div className="space-y-6 text-stone-500 text-[17px] leading-relaxed">
                   <p>
                     If you&apos;ve ever had a meeting with Nikki, there&apos;s a good chance you&apos;ve
-                    also met Hudson &mdash; the golden retriever who has quietly become one of
+                    also met Hudson - the Morkie who has quietly become one of
                     New York real estate&apos;s most beloved personalities. With a wagging tail
                     that can disarm even the most hard-nosed negotiator, Hudson has been
                     unofficially welcoming clients since puppyhood.
@@ -126,7 +126,7 @@ export function HudsonPageClient() {
                     visitors at the office (with enthusiasm that would put most doormen
                     to shame), and provides emotional support during the more stressful
                     moments of any transaction. He also has impeccable taste in
-                    neighborhoods &mdash; though his opinions may be disproportionately
+                    neighborhoods - though his opinions may be disproportionately
                     influenced by proximity to dog parks.
                   </p>
 
@@ -142,7 +142,7 @@ export function HudsonPageClient() {
 
                   <p>
                     Beyond his obvious charm, Hudson is a genuine part of the Beauchamp
-                    brand &mdash; a reminder that real estate, at its best, is about warmth,
+                    brand - a reminder that real estate, at its best, is about warmth,
                     trust, and the feeling of home. He regularly appears on Nikki&apos;s social
                     media channels, where his following may or may not rival his human
                     counterpart&apos;s.

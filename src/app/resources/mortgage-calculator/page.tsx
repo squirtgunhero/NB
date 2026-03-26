@@ -131,7 +131,7 @@ export default function MortgageCalculatorPage() {
                     Down Payment
                   </label>
                   <span className="text-midnight font-display text-lg">
-                    {downPaymentPct}% &mdash; {formatCurrency(downPayment)}
+                    {downPaymentPct}% - {formatCurrency(downPayment)}
                   </span>
                 </div>
                 <input

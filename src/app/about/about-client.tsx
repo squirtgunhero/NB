@@ -160,14 +160,14 @@ export function AboutPageClient() {
                     Nicole &ldquo;Nikki&rdquo; Beauchamp has spent nearly two decades navigating
                     the most intricate and high-stakes real estate transactions in New York City.
                     From the historic brownstones of the Upper West Side to the soaring glass towers
-                    of Hudson Yards, she brings an advisory-first approach to every engagement &mdash;
+                    of Hudson Yards, she brings an advisory-first approach to every engagement -
                     one grounded in market intelligence, fiduciary responsibility, and a genuine
                     commitment to her clients&apos; long-term wellbeing.
                   </p>
                   <p>
                     Fluent in <span className="text-midnight font-medium">English, French, German, and Russian</span>,
                     Nikki has built a truly global practice. Her multilingual capabilities are not merely
-                    conversational &mdash; they reflect a deep cultural fluency that allows her to connect
+                    conversational - they reflect a deep cultural fluency that allows her to connect
                     with international buyers, sellers, and investors in ways that transcend language barriers.
                     This global perspective, combined with Sotheby&apos;s International Realty&apos;s worldwide network,
                     gives her clients an extraordinary competitive advantage.
@@ -175,7 +175,7 @@ export function AboutPageClient() {
                   <p>
                     A recognized technology innovator in the industry, Nikki was one of the first agents
                     to embrace digital marketing, social media strategy, and data-driven pricing models.
-                    She views technology not as a disruption but as a force multiplier &mdash; amplifying
+                    She views technology not as a disruption but as a force multiplier - amplifying
                     the human insight that only comes from years of walking buildings, reading market
                     cycles, and understanding the psychology of high-net-worth transactions.
                   </p>
@@ -280,7 +280,7 @@ export function AboutPageClient() {
                 <div className="md:col-span-5 relative aspect-[4/3] md:aspect-auto md:h-full min-h-[280px] overflow-hidden">
                   <Image
                     src="/images/hudson-teaser.svg"
-                    alt="Hudson - Nicole Beauchamp's Golden Retriever"
+                    alt="Hudson - Nicole Beauchamp's Morkie"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
                     unoptimized
@@ -295,7 +295,7 @@ export function AboutPageClient() {
                     Meet Hudson
                   </h3>
                   <p className="text-stone-500 text-[17px] leading-relaxed max-w-md">
-                    Every great advisor needs a great wingman. Hudson, the golden retriever
+                    Every great advisor needs a great wingman. Hudson, the Morkie
                     who has charmed more clients than most agents ever will, is very much
                     part of the brand.
                   </p>
