@@ -25,7 +25,7 @@ const BLOG_POSTS: BlogPost[] = [
     category: "Market Insights",
     date: "March 18, 2026",
     readTime: "6 min read",
-    image: "/images/placeholder-property-1.jpg",
+    image: "/images/placeholder-property-1.svg",
     pullQuote: "The luxury market does not simply recover — it reinvents itself with each cycle, rewarding those who understand the subtleties of timing and positioning.",
     body: [
       "The first quarter of 2026 has delivered surprising momentum to Manhattan's luxury segment, with signed contracts up 18% year-over-year in the $5 million-plus category. This resurgence is not accidental — it reflects a convergence of stabilizing interest rates, pent-up demand from sidelined buyers, and a renewed appetite for trophy assets.",
@@ -43,7 +43,7 @@ const BLOG_POSTS: BlogPost[] = [
     category: "Seller Tips",
     date: "March 10, 2026",
     readTime: "5 min read",
-    image: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-2.svg",
     pullQuote: "Staging is not about decorating — it is about crafting an aspirational lifestyle that the buyer can immediately envision as their own.",
     body: [
       "In the world of luxury real estate, first impressions are not just important — they are everything. The moment a prospective buyer crosses the threshold, they are not simply evaluating square footage and finishes. They are imagining a life.",
@@ -61,7 +61,7 @@ const BLOG_POSTS: BlogPost[] = [
     category: "Neighborhood Spotlights",
     date: "March 3, 2026",
     readTime: "8 min read",
-    image: "/images/placeholder-property-1.jpg",
+    image: "/images/placeholder-property-1.svg",
     pullQuote: "Tribeca offers something increasingly rare in Manhattan — a true sense of neighborhood, where world-class culture and quiet residential streets coexist in perfect balance.",
     body: [
       "Tribeca — the Triangle Below Canal — has evolved from a quiet industrial district into Manhattan's most prestigious residential neighborhood. With its cobblestone streets, converted loft buildings, and an almost village-like atmosphere, it offers a lifestyle that is uniquely its own.",
@@ -79,7 +79,7 @@ const BLOG_POSTS: BlogPost[] = [
     category: "Buyer Tips",
     date: "February 24, 2026",
     readTime: "7 min read",
-    image: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-2.svg",
     pullQuote: "In luxury real estate, the right advisor does not just find you a property — they protect your interests, negotiate with precision, and ensure the entire experience reflects the standard you deserve.",
     body: [
       "Purchasing your first luxury property in Manhattan is a milestone that deserves expert guidance. The process differs significantly from a standard transaction, with nuances that can make or break your experience.",
@@ -97,7 +97,7 @@ const BLOG_POSTS: BlogPost[] = [
     category: "NYC Living",
     date: "February 15, 2026",
     readTime: "4 min read",
-    image: "/images/placeholder-property-1.jpg",
+    image: "/images/placeholder-property-1.svg",
     pullQuote: "A private rooftop terrace in Manhattan is not merely outdoor space — it is a sanctuary above the city, where the skyline becomes your living room wall.",
     body: [
       "In a city of eight million, private outdoor space is the ultimate luxury. A rooftop terrace transforms a Manhattan residence from exceptional to extraordinary, offering a personal retreat above the urban landscape.",
@@ -115,7 +115,7 @@ const BLOG_POSTS: BlogPost[] = [
     category: "Market Insights",
     date: "February 8, 2026",
     readTime: "6 min read",
-    image: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-2.svg",
     pullQuote: "Spring 2026 presents a rare alignment of favorable conditions for both buyers and sellers — the key is understanding which side of the equation benefits most in your specific market segment.",
     body: [
       "As we enter spring 2026, the Manhattan real estate market is poised for what may be its most dynamic season in years. Several converging factors are creating conditions that both buyers and sellers should understand.",

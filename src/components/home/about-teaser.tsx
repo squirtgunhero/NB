@@ -33,7 +33,7 @@ export function AboutTeaser() {
               >
                 <div className="absolute inset-0 bg-stone-200 skeleton" />
                 <Image
-                  src="/images/nikki-editorial.jpg"
+                  src="/images/nikki-editorial.svg"
                   alt="Nicole Beauchamp — Luxury Real Estate Advisor"
                   fill
                   className="object-cover"

@@ -18,10 +18,10 @@ const PRESS_ITEMS = [
 
 /* ─── Video Data ─── */
 const VIDEOS = [
-  { id: 1, title: "432 Park Avenue Penthouse Tour", category: "Property Tour", thumbnail: "/images/placeholder-property-1.jpg", duration: "4:32" },
-  { id: 2, title: "Manhattan Market Update: Spring 2026", category: "Market Update", thumbnail: "/images/placeholder-property-2.jpg", duration: "8:15" },
-  { id: 3, title: "Living in Tribeca: A Neighborhood Portrait", category: "NYC Living", thumbnail: "/images/placeholder-property-1.jpg", duration: "6:48" },
-  { id: 4, title: "The Art of the Open House at Sotheby's", category: "Property Tour", thumbnail: "/images/placeholder-property-2.jpg", duration: "5:21" },
+  { id: 1, title: "432 Park Avenue Penthouse Tour", category: "Property Tour", thumbnail: "/images/placeholder-property-1.svg", duration: "4:32" },
+  { id: 2, title: "Manhattan Market Update: Spring 2026", category: "Market Update", thumbnail: "/images/placeholder-property-2.svg", duration: "8:15" },
+  { id: 3, title: "Living in Tribeca: A Neighborhood Portrait", category: "NYC Living", thumbnail: "/images/placeholder-property-1.svg", duration: "6:48" },
+  { id: 4, title: "The Art of the Open House at Sotheby's", category: "Property Tour", thumbnail: "/images/placeholder-property-2.svg", duration: "5:21" },
 ];
 
 /* ─── Podcast Data ─── */

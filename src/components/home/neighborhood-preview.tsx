@@ -10,25 +10,25 @@ const NEIGHBORHOODS = [
   {
     slug: "upper-east-side",
     name: "Upper East Side",
-    image: "/images/neighborhoods/ues.jpg",
+    image: "/images/neighborhoods/ues.svg",
     startingPrice: "$1.2M",
   },
   {
     slug: "tribeca",
     name: "Tribeca",
-    image: "/images/neighborhoods/tribeca.jpg",
+    image: "/images/neighborhoods/tribeca.svg",
     startingPrice: "$2.5M",
   },
   {
     slug: "soho",
     name: "SoHo",
-    image: "/images/neighborhoods/soho.jpg",
+    image: "/images/neighborhoods/soho.svg",
     startingPrice: "$1.8M",
   },
   {
     slug: "greenwich-village",
     name: "Greenwich Village",
-    image: "/images/neighborhoods/village.jpg",
+    image: "/images/neighborhoods/village.svg",
     startingPrice: "$1.5M",
   },
 ];

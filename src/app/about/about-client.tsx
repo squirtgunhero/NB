@@ -75,7 +75,7 @@ export function AboutPageClient() {
       <section ref={heroRef} className="relative h-[85vh] min-h-[600px] w-full overflow-hidden">
         <motion.div style={{ y: heroImageY }} className="absolute inset-0">
           <Image
-            src="/images/nikki-editorial-full.jpg"
+            src="/images/nikki-editorial-full.svg"
             alt="Nicole Beauchamp — Editorial Portrait"
             fill
             className="object-cover object-top"
@@ -279,7 +279,7 @@ export function AboutPageClient() {
                 {/* Image */}
                 <div className="md:col-span-5 relative aspect-[4/3] md:aspect-auto md:h-full min-h-[280px] overflow-hidden">
                   <Image
-                    src="/images/hudson-teaser.jpg"
+                    src="/images/hudson-teaser.svg"
                     alt="Hudson — Nicole Beauchamp's Golden Retriever"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"

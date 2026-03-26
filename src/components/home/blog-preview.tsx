@@ -13,7 +13,7 @@ const BLOG_POSTS = [
     date: "March 15, 2026",
     excerpt:
       "A deep dive into the trends shaping Manhattan's luxury market this season — from pricing dynamics to emerging buyer profiles.",
-    image: "/images/blog/market-spring.jpg",
+    image: "/images/blog/market-spring.svg",
     readTime: 6,
     featured: true,
   },
@@ -24,7 +24,7 @@ const BLOG_POSTS = [
     date: "March 8, 2026",
     excerpt:
       "From hidden omakase counters to neighborhood institutions, a curated guide to Tribeca's culinary scene.",
-    image: "/images/blog/tribeca-dining.jpg",
+    image: "/images/blog/tribeca-dining.svg",
     readTime: 4,
   },
   {
@@ -34,7 +34,7 @@ const BLOG_POSTS = [
     date: "February 28, 2026",
     excerpt:
       "Board packages, co-op vs. condo, financing nuances — the insider knowledge that makes the difference.",
-    image: "/images/blog/first-time-buyer.jpg",
+    image: "/images/blog/first-time-buyer.svg",
     readTime: 8,
   },
 ];

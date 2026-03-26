@@ -32,11 +32,11 @@ const PROPERTIES: PropertyDetail[] = [
     neighborhood: "Midtown",
     neighborhoodSlug: "midtown",
     images: [
-      "/images/placeholder-property-1.jpg",
-      "/images/placeholder-property-2.jpg",
-      "/images/placeholder-property-3.jpg",
-      "/images/placeholder-property-4.jpg",
-      "/images/placeholder-property-1.jpg",
+      "/images/placeholder-property-1.svg",
+      "/images/placeholder-property-2.svg",
+      "/images/placeholder-property-3.svg",
+      "/images/placeholder-property-4.svg",
+      "/images/placeholder-property-1.svg",
     ],
     description: [
       "Perched atop one of the tallest residential buildings in the Western Hemisphere, this extraordinary penthouse offers 360-degree views of Central Park, the Hudson River, and the Manhattan skyline. Every room is bathed in natural light through oversized 10-by-10-foot windows.",
@@ -79,10 +79,10 @@ const PROPERTIES: PropertyDetail[] = [
     neighborhood: "Midtown West",
     neighborhoodSlug: "midtown-west",
     images: [
-      "/images/placeholder-property-2.jpg",
-      "/images/placeholder-property-1.jpg",
-      "/images/placeholder-property-3.jpg",
-      "/images/placeholder-property-4.jpg",
+      "/images/placeholder-property-2.svg",
+      "/images/placeholder-property-1.svg",
+      "/images/placeholder-property-3.svg",
+      "/images/placeholder-property-4.svg",
     ],
     description: [
       "Occupying the entire 87th floor of One57, this magnificent full-floor residence offers unobstructed views of Central Park from every room. Designed with the world's most discerning collectors and entertainers in mind.",
@@ -123,10 +123,10 @@ const PROPERTIES: PropertyDetail[] = [
     neighborhood: "Tribeca",
     neighborhoodSlug: "tribeca",
     images: [
-      "/images/placeholder-property-3.jpg",
-      "/images/placeholder-property-1.jpg",
-      "/images/placeholder-property-2.jpg",
-      "/images/placeholder-property-4.jpg",
+      "/images/placeholder-property-3.svg",
+      "/images/placeholder-property-1.svg",
+      "/images/placeholder-property-2.svg",
+      "/images/placeholder-property-4.svg",
     ],
     description: [
       "A stunning full-floor loft in one of Tribeca's most coveted condominium conversions. This 5,100-square-foot residence blends original industrial character — soaring ceilings, exposed brick, and oversized arched windows — with impeccable contemporary design.",

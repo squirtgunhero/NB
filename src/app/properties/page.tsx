@@ -17,8 +17,8 @@ export interface PropertyCard {
   sqft: number;
   type: "Condo" | "Co-op" | "Townhouse" | "Rental";
   neighborhood: string;
-  image: "/images/placeholder-property-1.jpg";
-  image2: "/images/placeholder-property-2.jpg";
+  image: "/images/placeholder-property-1.svg";
+  image2: "/images/placeholder-property-2.svg";
 }
 
 const PROPERTIES: PropertyCard[] = [
@@ -31,8 +31,8 @@ const PROPERTIES: PropertyCard[] = [
     sqft: 8255,
     type: "Condo",
     neighborhood: "Midtown",
-    image: "/images/placeholder-property-1.jpg",
-    image2: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-1.svg",
+    image2: "/images/placeholder-property-2.svg",
   },
   {
     slug: "one-57-unit-87",
@@ -43,8 +43,8 @@ const PROPERTIES: PropertyCard[] = [
     sqft: 6240,
     type: "Condo",
     neighborhood: "Midtown West",
-    image: "/images/placeholder-property-1.jpg",
-    image2: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-1.svg",
+    image2: "/images/placeholder-property-2.svg",
   },
   {
     slug: "tribeca-loft-greenwich",
@@ -55,8 +55,8 @@ const PROPERTIES: PropertyCard[] = [
     sqft: 5100,
     type: "Condo",
     neighborhood: "Tribeca",
-    image: "/images/placeholder-property-1.jpg",
-    image2: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-1.svg",
+    image2: "/images/placeholder-property-2.svg",
   },
   {
     slug: "ues-townhouse-64th",
@@ -67,8 +67,8 @@ const PROPERTIES: PropertyCard[] = [
     sqft: 8500,
     type: "Townhouse",
     neighborhood: "Upper East Side",
-    image: "/images/placeholder-property-1.jpg",
-    image2: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-1.svg",
+    image2: "/images/placeholder-property-2.svg",
   },
   {
     slug: "central-park-west-coop",
@@ -79,8 +79,8 @@ const PROPERTIES: PropertyCard[] = [
     sqft: 3200,
     type: "Co-op",
     neighborhood: "Upper West Side",
-    image: "/images/placeholder-property-1.jpg",
-    image2: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-1.svg",
+    image2: "/images/placeholder-property-2.svg",
   },
   {
     slug: "soho-cast-iron-loft",
@@ -91,8 +91,8 @@ const PROPERTIES: PropertyCard[] = [
     sqft: 4800,
     type: "Condo",
     neighborhood: "SoHo",
-    image: "/images/placeholder-property-1.jpg",
-    image2: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-1.svg",
+    image2: "/images/placeholder-property-2.svg",
   },
   {
     slug: "gramercy-park-coop",
@@ -103,8 +103,8 @@ const PROPERTIES: PropertyCard[] = [
     sqft: 2800,
     type: "Co-op",
     neighborhood: "Gramercy",
-    image: "/images/placeholder-property-1.jpg",
-    image2: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-1.svg",
+    image2: "/images/placeholder-property-2.svg",
   },
   {
     slug: "west-village-townhouse",
@@ -115,8 +115,8 @@ const PROPERTIES: PropertyCard[] = [
     sqft: 6100,
     type: "Townhouse",
     neighborhood: "West Village",
-    image: "/images/placeholder-property-1.jpg",
-    image2: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-1.svg",
+    image2: "/images/placeholder-property-2.svg",
   },
   {
     slug: "hudson-yards-rental",
@@ -127,8 +127,8 @@ const PROPERTIES: PropertyCard[] = [
     sqft: 1850,
     type: "Rental",
     neighborhood: "Hudson Yards",
-    image: "/images/placeholder-property-1.jpg",
-    image2: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-1.svg",
+    image2: "/images/placeholder-property-2.svg",
   },
 ];
 

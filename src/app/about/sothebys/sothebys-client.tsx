@@ -55,7 +55,7 @@ export function SothebysPageClient() {
       <section ref={heroRef} className="relative h-[70vh] min-h-[500px] w-full overflow-hidden bg-midnight">
         <motion.div style={{ y: heroY }} className="absolute inset-0">
           <Image
-            src="/images/sothebys-hero.jpg"
+            src="/images/sothebys-hero.svg"
             alt="Sotheby's International Realty"
             fill
             className="object-cover opacity-40"
@@ -117,7 +117,7 @@ export function SothebysPageClient() {
               <AnimateIn direction="left">
                 <div className="relative aspect-[3/4] rounded-[6px] overflow-hidden">
                   <Image
-                    src="/images/sothebys-auction.jpg"
+                    src="/images/sothebys-auction.svg"
                     alt="Sotheby's Auction House — A Legacy of Excellence"
                     fill
                     className="object-cover"
@@ -206,7 +206,7 @@ export function SothebysPageClient() {
           <AnimateIn>
             <div className="relative aspect-[21/9] rounded-[6px] overflow-hidden bg-stone-800/50 border border-stone-700/40">
               <Image
-                src="/images/sothebys-global-map.jpg"
+                src="/images/sothebys-global-map.svg"
                 alt="Sotheby's International Realty Global Network Map"
                 fill
                 className="object-cover opacity-60"
@@ -327,7 +327,7 @@ export function SothebysPageClient() {
               <AnimateIn direction="right">
                 <div className="relative aspect-[3/4] rounded-[6px] overflow-hidden">
                   <Image
-                    src="/images/nikki-sothebys.jpg"
+                    src="/images/nikki-sothebys.svg"
                     alt="Nicole Beauchamp — Sotheby's International Realty"
                     fill
                     className="object-cover"

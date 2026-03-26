@@ -37,7 +37,7 @@ const BLOG_POSTS: BlogPost[] = [
     category: "Market Insights",
     date: "March 18, 2026",
     readTime: "6 min read",
-    image: "/images/placeholder-property-1.jpg",
+    image: "/images/placeholder-property-1.svg",
     featured: true,
   },
   {
@@ -48,7 +48,7 @@ const BLOG_POSTS: BlogPost[] = [
     category: "Seller Tips",
     date: "March 10, 2026",
     readTime: "5 min read",
-    image: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-2.svg",
   },
   {
     slug: "tribeca-neighborhood-guide",
@@ -58,7 +58,7 @@ const BLOG_POSTS: BlogPost[] = [
     category: "Neighborhood Spotlights",
     date: "March 3, 2026",
     readTime: "8 min read",
-    image: "/images/placeholder-property-1.jpg",
+    image: "/images/placeholder-property-1.svg",
   },
   {
     slug: "first-time-luxury-buyer-guide",
@@ -68,7 +68,7 @@ const BLOG_POSTS: BlogPost[] = [
     category: "Buyer Tips",
     date: "February 24, 2026",
     readTime: "7 min read",
-    image: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-2.svg",
   },
   {
     slug: "best-rooftop-terraces-nyc",
@@ -78,7 +78,7 @@ const BLOG_POSTS: BlogPost[] = [
     category: "NYC Living",
     date: "February 15, 2026",
     readTime: "4 min read",
-    image: "/images/placeholder-property-1.jpg",
+    image: "/images/placeholder-property-1.svg",
   },
   {
     slug: "spring-2026-market-forecast",
@@ -88,7 +88,7 @@ const BLOG_POSTS: BlogPost[] = [
     category: "Market Insights",
     date: "February 8, 2026",
     readTime: "6 min read",
-    image: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-2.svg",
   },
   {
     slug: "upper-east-side-renaissance",
@@ -98,7 +98,7 @@ const BLOG_POSTS: BlogPost[] = [
     category: "Neighborhood Spotlights",
     date: "January 30, 2026",
     readTime: "5 min read",
-    image: "/images/placeholder-property-1.jpg",
+    image: "/images/placeholder-property-1.svg",
   },
   {
     slug: "selling-co-op-vs-condo",
@@ -108,7 +108,7 @@ const BLOG_POSTS: BlogPost[] = [
     category: "Seller Tips",
     date: "January 22, 2026",
     readTime: "6 min read",
-    image: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-2.svg",
   },
 ];
 

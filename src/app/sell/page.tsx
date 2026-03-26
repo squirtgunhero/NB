@@ -116,12 +116,12 @@ const MARKETING_FEATURES = [
 ];
 
 const PAST_SALES = [
-  { image: "/images/properties/sale-1.jpg", address: "432 Park Avenue, Unit 78A", price: "$12,500,000", date: "2025" },
-  { image: "/images/properties/sale-2.jpg", address: "15 Central Park West, Unit 24B", price: "$8,750,000", date: "2025" },
-  { image: "/images/properties/sale-3.jpg", address: "56 Leonard Street, PH", price: "$6,200,000", date: "2024" },
-  { image: "/images/properties/sale-4.jpg", address: "220 Central Park South, 42C", price: "$9,100,000", date: "2024" },
-  { image: "/images/properties/sale-5.jpg", address: "30 Park Place, Unit 65A", price: "$5,450,000", date: "2024" },
-  { image: "/images/properties/sale-6.jpg", address: "111 West 57th Street, 38E", price: "$7,800,000", date: "2023" },
+  { image: "/images/properties/sale-1.svg", address: "432 Park Avenue, Unit 78A", price: "$12,500,000", date: "2025" },
+  { image: "/images/properties/sale-2.svg", address: "15 Central Park West, Unit 24B", price: "$8,750,000", date: "2025" },
+  { image: "/images/properties/sale-3.svg", address: "56 Leonard Street, PH", price: "$6,200,000", date: "2024" },
+  { image: "/images/properties/sale-4.svg", address: "220 Central Park South, 42C", price: "$9,100,000", date: "2024" },
+  { image: "/images/properties/sale-5.svg", address: "30 Park Place, Unit 65A", price: "$5,450,000", date: "2024" },
+  { image: "/images/properties/sale-6.svg", address: "111 West 57th Street, 38E", price: "$7,800,000", date: "2023" },
 ];
 
 /* ─── Page ─── */
@@ -135,7 +135,7 @@ export default function SellPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-midnight/60 via-midnight/80 to-midnight" />
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="/images/sell-hero.jpg"
+            src="/images/sell-hero.svg"
             alt="New York City skyline"
             fill
             className="object-cover"
@@ -292,7 +292,7 @@ export default function SellPage() {
             <AnimateIn direction="left">
               <div className="relative aspect-[4/3] bg-stone-200 overflow-hidden">
                 <Image
-                  src="/images/marketing-showcase.jpg"
+                  src="/images/marketing-showcase.svg"
                   alt="Luxury property marketing materials"
                   fill
                   className="object-cover"

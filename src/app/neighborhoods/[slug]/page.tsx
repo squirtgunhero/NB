@@ -23,7 +23,7 @@ const NEIGHBORHOOD_DATA: Record<string, {
     name: "Upper East Side",
     vibe: "Old-world elegance meets modern sophistication",
     description: "The Upper East Side is Manhattan's gold standard for refined living. Tree-lined streets of limestone townhouses give way to Museum Mile's cultural treasures, while Madison Avenue boutiques and world-class dining define the neighborhood's quietly luxurious character. This is where New York's most established families have lived for generations — and where a new generation of discerning buyers continues to invest.",
-    heroImage: "/images/neighborhoods/ues-hero.jpg",
+    heroImage: "/images/neighborhoods/ues-hero.svg",
     medianPrice: 2450000,
     avgPricePerSqFt: 1850,
     inventory: 342,
@@ -50,7 +50,7 @@ const NEIGHBORHOOD_DATA: Record<string, {
     name: "Tribeca",
     vibe: "Industrial grandeur turned family-friendly luxury",
     description: "Tribeca has evolved from a warehouse district into Manhattan's most coveted residential neighborhood. Cast-iron buildings now house sprawling loft conversions, while cobblestone streets lead to some of the city's best restaurants. It's where celebrities, finance executives, and creative entrepreneurs live side by side — drawn by the space, the quiet, and the unmistakable sense of arrival.",
-    heroImage: "/images/neighborhoods/tribeca-hero.jpg",
+    heroImage: "/images/neighborhoods/tribeca-hero.svg",
     medianPrice: 3800000,
     avgPricePerSqFt: 2200,
     inventory: 156,
@@ -79,7 +79,7 @@ const DEFAULT_NEIGHBORHOOD = {
   name: "Manhattan Neighborhood",
   vibe: "Where New York comes alive",
   description: "One of Manhattan's most vibrant and sought-after neighborhoods, offering a unique blend of culture, cuisine, and community that makes it an exceptional place to call home.",
-  heroImage: "/images/neighborhoods/default-hero.jpg",
+  heroImage: "/images/neighborhoods/default-hero.svg",
   medianPrice: 2000000,
   avgPricePerSqFt: 1600,
   inventory: 200,
@@ -119,7 +119,7 @@ export default function NeighborhoodDetailPage() {
   const slug = params.slug as string;
   const data = NEIGHBORHOOD_DATA[slug] || { ...DEFAULT_NEIGHBORHOOD, name: slug.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ") };
 
-  const galleryImages = Array.from({ length: 6 }, (_, i) => `/images/neighborhoods/${slug}-${i + 1}.jpg`);
+  const galleryImages = Array.from({ length: 6 }, (_, i) => `/images/neighborhoods/${slug}-${i + 1}.svg`);
 
   return (
     <>

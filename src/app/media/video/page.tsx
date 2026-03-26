@@ -6,14 +6,14 @@ import { Badge } from "@/components/ui";
 export const metadata: Metadata = { title: "Video" };
 
 const VIDEOS = [
-  { id: 1, title: "432 Park Avenue Penthouse — Exclusive Tour", category: "Property Tour", thumbnail: "/images/placeholder-property-1.jpg", duration: "4:32", description: "Step inside one of Manhattan's most iconic residences with breathtaking 360-degree views." },
-  { id: 2, title: "Manhattan Market Update: Spring 2026", category: "Market Update", thumbnail: "/images/placeholder-property-2.jpg", duration: "8:15", description: "Nicole breaks down the latest luxury market data and what it means for buyers and sellers." },
-  { id: 3, title: "Living in Tribeca: A Neighborhood Portrait", category: "NYC Living", thumbnail: "/images/placeholder-property-1.jpg", duration: "6:48", description: "An intimate look at the streets, restaurants, and residences that define Tribeca." },
-  { id: 4, title: "The Art of the Open House at Sotheby's", category: "Property Tour", thumbnail: "/images/placeholder-property-2.jpg", duration: "5:21", description: "How Sotheby's creates an unforgettable experience for discerning buyers." },
-  { id: 5, title: "Upper East Side: Classic Elegance Reimagined", category: "NYC Living", thumbnail: "/images/placeholder-property-1.jpg", duration: "7:03", description: "Exploring the UES renaissance — new restaurants, galleries, and a vibrant cultural scene." },
-  { id: 6, title: "Q4 2025 Luxury Market Recap", category: "Market Update", thumbnail: "/images/placeholder-property-2.jpg", duration: "10:42", description: "A comprehensive review of the year's final quarter in Manhattan luxury real estate." },
-  { id: 7, title: "72 Mercer Street Penthouse Walk-Through", category: "Property Tour", thumbnail: "/images/placeholder-property-1.jpg", duration: "3:55", description: "A stunning SoHo penthouse featuring original cast-iron details and panoramic views." },
-  { id: 8, title: "Central Park Views: Manhattan's Most Coveted Asset", category: "NYC Living", thumbnail: "/images/placeholder-property-2.jpg", duration: "5:18", description: "Why Central Park proximity remains the single most powerful driver of property value." },
+  { id: 1, title: "432 Park Avenue Penthouse — Exclusive Tour", category: "Property Tour", thumbnail: "/images/placeholder-property-1.svg", duration: "4:32", description: "Step inside one of Manhattan's most iconic residences with breathtaking 360-degree views." },
+  { id: 2, title: "Manhattan Market Update: Spring 2026", category: "Market Update", thumbnail: "/images/placeholder-property-2.svg", duration: "8:15", description: "Nicole breaks down the latest luxury market data and what it means for buyers and sellers." },
+  { id: 3, title: "Living in Tribeca: A Neighborhood Portrait", category: "NYC Living", thumbnail: "/images/placeholder-property-1.svg", duration: "6:48", description: "An intimate look at the streets, restaurants, and residences that define Tribeca." },
+  { id: 4, title: "The Art of the Open House at Sotheby's", category: "Property Tour", thumbnail: "/images/placeholder-property-2.svg", duration: "5:21", description: "How Sotheby's creates an unforgettable experience for discerning buyers." },
+  { id: 5, title: "Upper East Side: Classic Elegance Reimagined", category: "NYC Living", thumbnail: "/images/placeholder-property-1.svg", duration: "7:03", description: "Exploring the UES renaissance — new restaurants, galleries, and a vibrant cultural scene." },
+  { id: 6, title: "Q4 2025 Luxury Market Recap", category: "Market Update", thumbnail: "/images/placeholder-property-2.svg", duration: "10:42", description: "A comprehensive review of the year's final quarter in Manhattan luxury real estate." },
+  { id: 7, title: "72 Mercer Street Penthouse Walk-Through", category: "Property Tour", thumbnail: "/images/placeholder-property-1.svg", duration: "3:55", description: "A stunning SoHo penthouse featuring original cast-iron details and panoramic views." },
+  { id: 8, title: "Central Park Views: Manhattan's Most Coveted Asset", category: "NYC Living", thumbnail: "/images/placeholder-property-2.svg", duration: "5:18", description: "Why Central Park proximity remains the single most powerful driver of property value." },
 ];
 
 const CATEGORIES = ["All", "Property Tour", "Market Update", "NYC Living"];

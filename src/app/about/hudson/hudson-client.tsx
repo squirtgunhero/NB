@@ -9,12 +9,12 @@ import { SectionHeader } from "@/components/ui";
 /* ─── Gallery Images ─── */
 
 const galleryImages = [
-  { src: "/images/hudson/hudson-01.jpg", alt: "Hudson lounging at the office" },
-  { src: "/images/hudson/hudson-02.jpg", alt: "Hudson greeting clients" },
-  { src: "/images/hudson/hudson-03.jpg", alt: "Hudson at an open house" },
-  { src: "/images/hudson/hudson-04.jpg", alt: "Hudson in Central Park" },
-  { src: "/images/hudson/hudson-05.jpg", alt: "Hudson posing for the camera" },
-  { src: "/images/hudson/hudson-06.jpg", alt: "Hudson on a city walk" },
+  { src: "/images/hudson/hudson-01.svg", alt: "Hudson lounging at the office" },
+  { src: "/images/hudson/hudson-02.svg", alt: "Hudson greeting clients" },
+  { src: "/images/hudson/hudson-03.svg", alt: "Hudson at an open house" },
+  { src: "/images/hudson/hudson-04.svg", alt: "Hudson in Central Park" },
+  { src: "/images/hudson/hudson-05.svg", alt: "Hudson posing for the camera" },
+  { src: "/images/hudson/hudson-06.svg", alt: "Hudson on a city walk" },
 ];
 
 /* ─── Component ─── */
@@ -26,7 +26,7 @@ export function HudsonPageClient() {
       <section className="relative h-[70vh] min-h-[500px] w-full overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/hudson/hudson-hero.jpg"
+            src="/images/hudson/hudson-hero.svg"
             alt="Hudson — Golden Retriever and Brand Ambassador"
             fill
             className="object-cover object-center"
@@ -75,7 +75,7 @@ export function HudsonPageClient() {
               <AnimateIn direction="left">
                 <div className="relative aspect-[4/5] rounded-[6px] overflow-hidden">
                   <Image
-                    src="/images/hudson/hudson-portrait.jpg"
+                    src="/images/hudson/hudson-portrait.svg"
                     alt="Hudson portrait"
                     fill
                     className="object-cover"

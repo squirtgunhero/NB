@@ -14,7 +14,7 @@ export function Hero() {
           muted
           loop
           playsInline
-          poster="/images/hero-fallback.jpg"
+          poster="/images/hero-fallback.svg"
           className="absolute inset-0 w-full h-full object-cover"
         >
           <source src="/videos/nyc-aerial.mp4" type="video/mp4" />
@@ -23,7 +23,7 @@ export function Hero() {
         <div
           className="absolute inset-0 w-full h-full bg-cover bg-center animate-[kenburns_20s_ease-in-out_infinite_alternate]"
           style={{
-            backgroundImage: "url('/images/hero-fallback.jpg')",
+            backgroundImage: "url('/images/hero-fallback.svg')",
           }}
         />
         {/* Gradient Overlay */}

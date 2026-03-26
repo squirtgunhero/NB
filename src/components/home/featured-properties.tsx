@@ -18,7 +18,7 @@ const FEATURED_PROPERTIES = [
     bedrooms: 6,
     bathrooms: 7,
     sqft: 8255,
-    image: "/images/placeholder-property-1.jpg",
+    image: "/images/placeholder-property-1.svg",
     neighborhood: "Midtown",
   },
   {
@@ -29,7 +29,7 @@ const FEATURED_PROPERTIES = [
     bedrooms: 5,
     bathrooms: 5,
     sqft: 6240,
-    image: "/images/placeholder-property-2.jpg",
+    image: "/images/placeholder-property-2.svg",
     neighborhood: "Midtown West",
   },
   {
@@ -40,7 +40,7 @@ const FEATURED_PROPERTIES = [
     bedrooms: 4,
     bathrooms: 4,
     sqft: 5100,
-    image: "/images/placeholder-property-3.jpg",
+    image: "/images/placeholder-property-3.svg",
     neighborhood: "Tribeca",
   },
   {
@@ -51,7 +51,7 @@ const FEATURED_PROPERTIES = [
     bedrooms: 7,
     bathrooms: 8,
     sqft: 8500,
-    image: "/images/placeholder-property-4.jpg",
+    image: "/images/placeholder-property-4.svg",
     neighborhood: "Upper East Side",
   },
 ];
