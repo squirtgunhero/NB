@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { AnimateIn, StaggerChildren, StaggerItem } from "@/components/shared/animate-in";
 import { SectionHeader } from "@/components/ui";
+import { MapExplorer } from "@/components/neighborhoods/map-explorer";
 
 const NEIGHBORHOODS = [
   {
@@ -89,24 +90,11 @@ export default function NeighborhoodsPage() {
         </div>
       </section>
 
-      {/* ─── Map Placeholder ─── */}
+      {/* ─── Interactive Map ─── */}
       <section className="bg-midnight border-t border-stone-800">
-        <div className="mx-auto max-w-7xl px-6 py-20 md:py-28">
+        <div className="mx-auto max-w-7xl px-6 py-12 md:py-16">
           <AnimateIn>
-            <div className="relative w-full aspect-[21/9] bg-stone-900 border border-stone-700 flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-12 h-12 mx-auto mb-4 rounded-full border border-champagne/40 flex items-center justify-center">
-                  <svg className="w-5 h-5 text-champagne" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                  </svg>
-                </div>
-                <p className="font-display text-xl md:text-2xl text-ivory mb-2">
-                  Interactive Neighborhood Map
-                </p>
-                <p className="text-stone-500 text-sm">Coming Soon</p>
-              </div>
-            </div>
+            <MapExplorer />
           </AnimateIn>
         </div>
       </section>

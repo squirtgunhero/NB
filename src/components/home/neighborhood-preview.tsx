@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { SectionHeader } from "@/components/ui";
 import { AnimateIn, StaggerChildren, StaggerItem } from "@/components/shared/animate-in";
+import { MapExplorer } from "@/components/neighborhoods/map-explorer";
 
 const NEIGHBORHOODS = [
   {
@@ -46,32 +46,10 @@ export function NeighborhoodPreview() {
           />
         </AnimateIn>
 
-        {/* Mini Map Placeholder - will be replaced with Mapbox */}
+        {/* Interactive Map */}
         <AnimateIn>
-          <div className="relative w-full max-w-3xl mx-auto aspect-[3/4] md:aspect-[4/3] mb-16 rounded overflow-hidden bg-stone-900 border border-stone-800">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-center">
-                <svg
-                  className="w-16 h-16 mx-auto text-stone-700 mb-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1}
-                    d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"
-                  />
-                </svg>
-                <p className="text-[12px] uppercase tracking-[0.15em] text-stone-600">
-                  Interactive Map
-                </p>
-                <p className="mt-1 text-[14px] text-stone-500">
-                  Mapbox neighborhood explorer
-                </p>
-              </div>
-            </div>
+          <div className="mb-16">
+            <MapExplorer />
           </div>
         </AnimateIn>
 
